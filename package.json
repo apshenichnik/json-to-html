@@ -1,19 +1,24 @@
 {
-  "name": "config-to-html",
-  "private": true,
-  "version": "0.0.0",
+  "name": "json-to-html",
+  "version": "1.0.0",
   "type": "module",
+  "main": "./dist/json-to-html.umd.js",
+  "module": "./dist/json-to-html.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "node release.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
+    "archiver": "^7.0.1",
+    "child_process": "^1.0.2",
     "eslint": "^9.15.0",
     "prettier": "^3.3.1",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "vite-plugin-zip-pack": "^1.2.4"
   }
 }

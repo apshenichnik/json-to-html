@@ -1,4 +1,4 @@
-import {Parser} from "./parser.ts";
+import {Parser} from "./lib/parser.ts";
 import {ConfigType} from "./models/config.type.ts";
 
 const config: ConfigType = {
@@ -117,6 +117,6 @@ config.props = {
     ]
 }
 
-parser.config = config;
-
-// parser.update();
+setTimeout(() => {
+    parser.config = config;
+}, 3000);

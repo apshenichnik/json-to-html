@@ -1,5 +1,5 @@
-import {ConfigType} from "./models/config.type.ts";
-import {camelToKebab} from "./utils.ts";
+import {ConfigType} from "../models/config.type.ts";
+import {camelToKebab} from "../utils.ts";
 
 export const ContentProps = ['content'];
 export const ClassProps = ['className'];

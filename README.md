@@ -1,4 +1,4 @@
-# Foobar
+# JSON-TO_HTML Library
 
 Easy-to-use JS library to render JSON config to HTML
 
